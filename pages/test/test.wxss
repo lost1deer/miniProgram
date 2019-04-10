@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+}
+
+.input{
+  /* height:100rpx; */
+  margin-bottom:50rpx;
+  border:1rpx solid #000;
+}

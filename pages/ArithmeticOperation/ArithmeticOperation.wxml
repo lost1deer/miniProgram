@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+<view>
+<input bindinput="input1" placeholder='题目数目' class="input"></input>
+</view>
+<view>
+<input bindinput="input2" placeholder='运算数数目' class="input"></input>
+</view>
+<view>
+<input bindinput="range1" placeholder='数值最小值' class="input"></input>
+</view>
+<view>
+<input bindinput="range2" placeholder='数值最大值' class="input"></input>
+</view>
+<view >是否含有乘除法<click-cmp style="display:inline-block" bindeventListener="onClick"/>
+</view>
+<!-- <view>
+  <input class="weui-input" value="{{value1}}" bindinput='input1'auto-focus placeholder="请输入题目个数"/>
+  <!-- <input class="weui-input" value="{{value2}}" bindinput='input2'auto-focus placeholder="请输入运算符上限"/>
+  <input class="weui-input" value="{{range1}}" bindinput='range1'auto-focus placeholder="请输入最小数值"/>
+  <input class="weui-input" value="{{range2}}" bindinput='range2'auto-focus placeholder="请输入最大数值"/> -->
+<!-- </view> --> 
+<navigator url="../test/test?ifopr={{ifopr}}&boolean={{boolean}}&proNum={{proNum}}&opeNum={{opeNum}}&range1={{range1}}&range2={{range2}}"><view bindtap='EventHandle'>点击</view></navigator>
+
+
+</view>

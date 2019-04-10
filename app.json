@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/ArithmeticOperation/ArithmeticOperation",
+    "pages/test/test",
+    
+    "pages/final/final"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "四则运算出题器",
+    "navigationBarTextStyle": "black"
+  }
+}

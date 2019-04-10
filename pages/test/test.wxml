@@ -1,0 +1,7 @@
+<view class="container">
+    <view wx:for="{{classic}}">
+      <view>{{item}}</view>
+      <input bindinput="answer" placeholder='请输入答案' class="input"></input>
+    </view>
+    <navigator url="../final/final"><view bindtap='EventHandle'>点击</view></navigator>
+</view> 

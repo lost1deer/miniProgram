@@ -1,0 +1,17 @@
+/* pages/ArithmeticOperation/ArithmeticOperation.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* background-color: aqua;
+  background-size: 100%; */
+}
+/* .page-section{
+  margin-bottom: 20rpx;
+} */
+
+.input{
+  /* height:100rpx; */
+  margin-top:50rpx;
+  border:1rpx solid #000;
+}

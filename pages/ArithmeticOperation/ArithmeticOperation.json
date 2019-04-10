@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "click-cmp":"../../component/button/button"
+  }
+}

@@ -1,0 +1,3 @@
+<view bind:tap="onclick" class="container">
+<image class="image"src="{{!click?clicked:unclicked}}"></image>
+</view>

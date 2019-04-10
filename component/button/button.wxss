@@ -1,0 +1,5 @@
+/* component/button/button.wxss */
+.container image{
+  height:70rpx;
+  width: 130rpx;
+}
